@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dev1t0 Scale</title>
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="twitter:description" content="Because Imperial and Metric suck.">
+    <meta name="twitter:image" content="assets/img/512.png">
+    <meta name="description" content="Because Imperial and Metric suck.">
+    <meta name="twitter:title" content="Dev1t0 Scale">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/ios.png">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="assets/img/Egg.png">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="assets/img/Egg.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/ios.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/512.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Hero-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/periodictable.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<!-- Panelbear Analytics - We respect your privacy -->
+<script async src="https://cdn.panelbear.com/analytics.js?site=FtzwtgDwjnW"></script>
+<script>
+    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+    panelbear('config', { site: 'FtzwtgDwjnW' });
+</script>
+</head>
+
+<body style="color: #fff;background: #1a1a1a;">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/Egg.png" width="50px">The Dev1t0 Scale</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="why.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="periodictable.html">Periodic Table</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section style="padding: 10px;padding-right: 20px;padding-left: 20px;">
+        <div class="alert alert-warning" role="alert"><span><strong>Getting my own URL! You can now find Dev1t0 (and more)&nbsp;</strong><a class="alert-link" href="#">HERE</a><strong>&nbsp;</strong><br></span><span><strong>My friend here will quit hosting Dev1t0 on this site 6/30/2022&nbsp;</strong><br></span></div>
+        <div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item" role="presentation"><a class="nav-link link-light" role="tab" data-bs-toggle="tab" href="#tab-1">Meters</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link link-light" role="tab" data-bs-toggle="tab" href="#tab-2">Feet</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link link-light" role="tab" data-bs-toggle="tab" href="#tab-3">Mass</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link active link-light" role="tab" data-bs-toggle="tab" href="#tab-4">Volume</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane" role="tabpanel" id="tab-1"><section name="examples">
+    <h4>Conversion Calculator</h4>
+        <input class="form-control" type="number" id="meters" placeholder="Meters">
+        <p></p>
+       <!-- <input class="form-control" type="number" id="kph" placeholder="Speed (Kilometer Per Hour)">-->
+
+
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
+
+        <h4>Output</h4>
+        <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
+            <p id="function"></p>
+            <p id="var1"></p>
+            
+            <!--<p id="var7"></p>-->
+            
+
+
+        </code></div>
+
+
+
+</section>
+<script src="./entrybuilder.js"></script></div>
+                <div class="tab-pane" role="tabpanel" id="tab-2"><section name="examples">
+    <h4>Conversion Calculator</h4>
+
+        <input class="form-control" type="number" id="feet" placeholder="Feet">
+        <p></p>
+        <input class="form-control" type="number" id="inches" placeholder="Inches">
+        <p></p>
+        <!--<input class="form-control" type="number" id="mph" placeholder="Speed (Miles Per Hour)">-->
+ 
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
+
+        <h4>Output</h4>
+        <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
+            <p id="function"></p>
+
+            <p id="var2"></p>
+            <p id="var3"></p>
+
+           <!-- <p id="var6"></p>         -->
+            
+
+
+        </code></div>
+
+
+
+</section>
+<script src="./entrybuilder.js"></script></div>
+                <div class="tab-pane" role="tabpanel" id="tab-3"><section name="examples">
+    <h4>Conversion Calculator</h4>
+
+        <input class="form-control" type="number" id="mass" placeholder="Mass (Grams)">
+        <p></p>
+        <input class="form-control" type="number" id="weighto" placeholder="Weight (Ounces)">
+
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
+
+        <h4>Output</h4>
+        <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
+            <p id="function"></p>
+
+            <p id="var4"></p>
+            <p id="var5"></p>
+
+            
+
+
+        </code></div>
+
+
+
+</section>
+<script src="./entrybuilder.js"></script></div>
+                <div class="tab-pane active" role="tabpanel" id="tab-4"><section name="examples">
+    <h4>Conversion Calculator</h4>
+
+        <p></p>
+        <input class="form-control" type="number" id="dvo" placeholder="Volume (Ounces)">
+        <p></p>
+        <input class="form-control" type="number" id="dvm" placeholder="Volume (Milliliters)">
+<p></p>
+       <p> <button type="button" class="btn btn-light" onclick="generate()">Convert to Dev1t0</button></p>
+
+        <h4>Output</h4>
+        <div style="color: greenyellow; background-color: #1a1a1a;"><code style="color: greenyellow" id="jsoutput">
+            <p id="function"></p>
+            <p id="var6"></p>
+            <p id="var7"></p>
+
+            
+
+
+        </code></div>
+
+
+
+</section>
+<script src="./entrybuilder.js"></script></div>
+            </div>
+        </div>
+        <h1>Labels</h1>
+        <p>Dev1t0 (Length/Distance) = Ld0 (AKA, Long Dev1t0s)</p>
+        <p>Dev1t0 (Mass/Weight) = Md0 (AKA, Mass Dev1t0s)</p>
+        <h1>Prefixes</h1>
+        <p>Decadev1t0 = 10 Dev1t0s</p>
+        <p>Centidev1t0 = 0.01 Dev1t0s</p>
+        <p>And so on (Follows the prefixes of the metric system).</p>
+        <p></p>
+        <h1>Conversion Methods</h1>
+        <h4>Meters to Dev1t0s</h4>
+        <p>1.47/1</p>
+        <h4>Feet to Dev1t0s</h4>
+        <p>4.11/1</p>
+        <h4>Grams to Dev1t0s</h4>
+        <p>56.7/1</p>
+        <h4>Ounces to Dev1t0s</h4>
+        <p>2/1</p>
+    </section>
+    <footer class="footer-basic">
+        <div class="social"><a href="https://twitter.com/patriot_memes" style="border-style: none;" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                </svg></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://github.com/JacobBorgProgramming/Dev1t0-Scale" target="_blank">Source Code</a></li>
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="examples.html">Examples</a></li>
+            <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/entrybuilder.js"></script>
+    <script src="assets/js/icon.js"></script>
+    <script src="assets/js/karenquiz.js"></script>
+</body>
+
+</html>
