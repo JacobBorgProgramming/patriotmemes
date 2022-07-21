@@ -19,6 +19,9 @@
         <loc>/privacy.html</loc>
     </url>
     <url>
+        <loc>/templates.html</loc>
+    </url>
+    <url>
         <loc>/why.html</loc>
     </url>
 </urlset>
