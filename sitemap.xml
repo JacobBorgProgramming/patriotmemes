@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>/amichad.html</loc>
+    </url>
+    <url>
+        <loc>/amiwoke.html</loc>
+    </url>
+    <url>
         <loc>/dev1t0.html</loc>
     </url>
     <url>
@@ -17,6 +23,9 @@
     </url>
     <url>
         <loc>/privacy.html</loc>
+    </url>
+    <url>
+        <loc>/quizzes.html</loc>
     </url>
     <url>
         <loc>/templates.html</loc>
