@@ -10,11 +10,11 @@
 
 <header>
 
-    <h1>Algorithmic Discourse And Memeing (ADAM) Project v a1.0.1</h1>
+    <h1>Algorithmic Discourse And Memeing (ADAM) Project v <span id="version"></span></h1>
 </header>
-<body>
+<body  onload="versionm()">
     <p style="text-align: left;"> <button onclick="rd()">Random</button> </p>
-
+    <p style="text-align: left;"><button onclick="smallest()">tiny</button><button onclick="smaller()">small</button><button onclick="bigger()">big</button></p>
     <p style="text-align: left;"> <button  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button>  <button  style='font-family: "Open Sans";' onclick="literata()">Literata</button><button  style='font-family: "Open Sans";' onclick="Nanum_Gothic_ExtraBold()">Nanum Gothic ExtraBold</button> </p>
 
 
@@ -22,7 +22,7 @@
     <div id="output" style='font-family: "Open Sans";'><p id="outputtext" style="text-align: left; padding-left: 5%; color: #fff;"></p></div>
 
     <p style="text-align: center;"> <img id="memebg" src="" width="95%" alt=""> </p>
-    <h6 style="color: #fff; padding-left: 10px; padding-bottom: 2px;">ADAM Project a1.0.1</h6>
+    <h6 style="color: #fff; padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
     </div>
     <script src="./ADAM.js"></script>
     <script src="./adam_styles.js"></script>
