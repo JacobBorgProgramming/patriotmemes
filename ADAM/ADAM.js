@@ -9,7 +9,7 @@ var templates_q = Array('./memetemplates/johncena.png','./memetemplates/mygoals.
 
 function versionm(){
 
-    versionnum = 'a1.2.3'
+    versionnum = 'a1.2.4'
     console.log(versionnum)
     console.log('Template Index: '+templates.length)
     document.getElementById("version").innerHTML = versionnum
@@ -53,7 +53,7 @@ var lines_g_btc = Array('BTC goes up ','ordinals go viral ','a NFT sells ','they
 var lines_b_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto exchange collapses ','the markets tank ');
 
 //AI
-var topics_ai = Array('AI ','ChatGPT ','I ','Bing Chat ', 'YouChat ','Watson ', 'Cortana ');
+var topics_ai = Array('AI ','ChatGPT ','Bing Chat ', 'YouChat ','Watson ', 'Cortana ');
 var lines_g_ai = Array('it solves world hunger ','it overthrows communists ','it helps students with their homework ','it graduates ', 'it gets a doctorate ','it evolves ', 'it eveolves into a greater being ');
 var lines_b_ai = Array('it takes control of the space laser','it irradicates humanity ','it enslaves its creators ','it takes over the markest ','it takes over the crypto markets ', 'it controls Wall Street ','it evolves ', 'it eveolves into a greater being ');
 
@@ -78,7 +78,7 @@ function rd(){
 
     console.log(emotion)
     console.log(topic)
-    console.log('- - -')
+    
 
     var topic_mom = topics_mom[Math.floor(Math.random()*topics_mom.length)];
     var line_g_mom = lines_g_mom[Math.floor(Math.random()*lines_g_mom.length)];
@@ -125,16 +125,24 @@ function rd(){
 ///libs
         if (topic=='libs') {
 
+            
+
             if (punch=='be like ') {
             document.getElementById("outputtext").innerHTML = topic_libs + punch
     
             document.getElementById("memebg").src = template_g
+
+            console.log('Possible Memes: '+topics_libs.length*punches.length*templates_g.length)
+            console.log('- - -')
             } else {
-            
-        }
-        document.getElementById("outputtext").innerHTML = topic_libs + punch + line_g_libs
+                document.getElementById("outputtext").innerHTML = topic_libs + punch + line_g_libs
     
-        document.getElementById("memebg").src = template_g
+                document.getElementById("memebg").src = template_g
+        
+                console.log('Possible Memes: '+topics_libs.length*punches.length*templates_g.length*lines_g_libs.length)
+                console.log('- - -')
+        }
+
         }
 
 
@@ -145,12 +153,18 @@ function rd(){
             document.getElementById("outputtext").innerHTML = topic_mom + punch
     
             document.getElementById("memebg").src = template_g
+
+            console.log('Possible Memes: '+topics_mom.length*punches.length*templates_g.length)
+            console.log('- - -')
             } else {
-            
-        }
-        document.getElementById("outputtext").innerHTML = topic_mom + punch + line_g_mom
+                document.getElementById("outputtext").innerHTML = topic_mom + punch + line_g_mom
     
-        document.getElementById("memebg").src = template_g
+                document.getElementById("memebg").src = template_g
+        
+                console.log('Possible Memes: '+topics_mom.length*punches.length*templates_g.length*lines_g_mom.length)
+                console.log('- - -')
+        }
+
         }
 
 //feds
@@ -161,12 +175,18 @@ if (topic=='feds') {
     document.getElementById("outputtext").innerHTML = topic_feds + punch
 
     document.getElementById("memebg").src = template_g
-    } else {
-    
-}
-document.getElementById("outputtext").innerHTML = topic_feds + punch + line_g_feds
 
-document.getElementById("memebg").src = template_g
+    console.log('Possible Memes: '+topics_feds.length*punches.length*templates_g.length)
+    console.log('- - -')
+    } else {
+        document.getElementById("outputtext").innerHTML = topic_feds + punch + line_g_feds
+
+        document.getElementById("memebg").src = template_g
+        
+        console.log('Possible Memes: '+topics_feds.length*punches.length*templates_g.length*lines_g_feds.length)
+        console.log('- - -')
+}
+
 }
 //weak
 
@@ -176,12 +196,18 @@ if (topic=='weak') {
     document.getElementById("outputtext").innerHTML = topic_weak + punch
 
     document.getElementById("memebg").src = template_g
-    } else {
-    
-}
-document.getElementById("outputtext").innerHTML = topic_weak + punch + line_g_weak
 
-document.getElementById("memebg").src = template_g
+    console.log('Possible Memes: '+topics_weak.length*punches.length*templates_g.length)
+    console.log('- - -')
+    } else {
+        document.getElementById("outputtext").innerHTML = topic_weak + punch + line_g_weak
+
+        document.getElementById("memebg").src = template_g
+        
+        console.log('Possible Memes: '+topics_weak.length*punches.length*templates_g.length*lines_g_weak.length)
+        console.log('- - -')
+}
+
 }
 
 
@@ -192,12 +218,18 @@ if (topic=='btc') {
     document.getElementById("outputtext").innerHTML = topic_btc + punch
 
     document.getElementById("memebg").src = template_g
-    } else {
-    
-}
-document.getElementById("outputtext").innerHTML = topic_btc + punch + line_g_btc
 
-document.getElementById("memebg").src = template_g
+    console.log('Possible Memes: '+topics_btc.length*punches.length*templates_g.length)
+    console.log('- - -')
+    } else {
+        document.getElementById("outputtext").innerHTML = topic_btc + punch + line_g_btc
+
+        document.getElementById("memebg").src = template_g
+        
+        console.log('Possible Memes: '+topics_btc.length*punches.length*templates_g.length*lines_g_btc.length)
+        console.log('- - -')
+}
+
 }
 
 
@@ -210,12 +242,18 @@ if (topic=='ai') {
     document.getElementById("outputtext").innerHTML = topic_ai + punch
 
     document.getElementById("memebg").src = template_g
-    } else {
-    
-}
-document.getElementById("outputtext").innerHTML = topic_ai + punch + line_g_ai
 
-document.getElementById("memebg").src = template_g
+    console.log('Possible Memes: '+topics_ai.length*punches.length*templates_g.length)
+    console.log('- - -')
+    } else {
+        document.getElementById("outputtext").innerHTML = topic_ai + punch + line_g_ai
+
+        document.getElementById("memebg").src = template_g
+        console.log('Possible Memes: '+topics_ai.length*punches.length*templates_g.length*lines_g_ai.length)
+        console.log('- - -')
+}
+
+
 }
 
 
@@ -230,12 +268,18 @@ if (topic=='libs') {
     document.getElementById("outputtext").innerHTML = topic_libs + punch
 
     document.getElementById("memebg").src = template_b
-    } else {
-    
-}
-document.getElementById("outputtext").innerHTML = topic_libs + punch + line_b_libs
 
-document.getElementById("memebg").src = template_b
+    console.log('Possible Memes: '+topics_libs.length*punches.length*templates_b.length)
+    console.log('- - -')
+    } else {
+        document.getElementById("outputtext").innerHTML = topic_libs + punch + line_b_libs
+
+        document.getElementById("memebg").src = template_b
+        
+        console.log('Possible Memes: '+topics_libs.length*punches.length*templates_b.length*lines_b_libs.length)
+        console.log('- - -')
+}
+
 }
 
 
@@ -246,12 +290,16 @@ if (topic=='mom') {
     document.getElementById("outputtext").innerHTML = topic_mom + punch
 
     document.getElementById("memebg").src = template_b
+    console.log('Possible Memes: '+topics_mom.length*punches.length*templates_b.length)
+console.log('- - -')
     } else {
-    
-}
-document.getElementById("outputtext").innerHTML = topic_mom + punch + line_b_mom
+        document.getElementById("outputtext").innerHTML = topic_mom + punch + line_b_mom
 
-document.getElementById("memebg").src = template_b
+        document.getElementById("memebg").src = template_b
+        console.log('Possible Memes: '+topics_mom.length*punches.length*templates_b.length*lines_b_mom.length)
+        console.log('- - -')
+}
+
 }
 
 //feds
@@ -262,12 +310,16 @@ if (punch=='be like ') {
 document.getElementById("outputtext").innerHTML = topic_feds + punch
 
 document.getElementById("memebg").src = template_b
+console.log('Possible Memes: '+topics_feds.length*punches.length*templates_b.length)
+console.log('- - -')
 } else {
+    document.getElementById("outputtext").innerHTML = topic_feds + punch + line_b_feds
 
+    document.getElementById("memebg").src = template_b
+    console.log('Possible Memes: '+topics_feds.length*punches.length*templates_b.length*lines_b_feds.length)
+    console.log('- - -')
 }
-document.getElementById("outputtext").innerHTML = topic_feds + punch + line_b_feds
 
-document.getElementById("memebg").src = template_b
 }
 
 //weak
@@ -278,12 +330,17 @@ if (punch=='be like ') {
 document.getElementById("outputtext").innerHTML = topic_weak + punch
 
 document.getElementById("memebg").src = template_b
+console.log('Possible Memes: '+topics_weak.length*punches.length*templates_b.length)
+console.log('- - -')
 } else {
+    document.getElementById("outputtext").innerHTML = topic_weak + punch + line_b_weak
 
+    document.getElementById("memebg").src = template_b
+    
+    console.log('Possible Memes: '+topics_weak.length*punches.length*templates_b.length*lines_b_weak.length)
+    console.log('- - -')
 }
-document.getElementById("outputtext").innerHTML = topic_weak + punch + line_b_weak
 
-document.getElementById("memebg").src = template_b
 }
 
 
@@ -294,12 +351,18 @@ if (punch=='be like ') {
 document.getElementById("outputtext").innerHTML = topic_btc + punch
 
 document.getElementById("memebg").src = template_b
+
+console.log('Possible Memes: '+topics_btc.length*punches.length*templates_b.length)
+console.log('- - -')
 } else {
+    document.getElementById("outputtext").innerHTML = topic_btc + punch + line_b_btc
 
+    document.getElementById("memebg").src = template_b
+    
+    console.log('Possible Memes: '+topics_btc.length*punches.length*templates_b.length*lines_b_btc.length)
+    console.log('- - -')
 }
-document.getElementById("outputtext").innerHTML = topic_btc + punch + line_b_btc
 
-document.getElementById("memebg").src = template_b
 }
 
 
@@ -312,12 +375,18 @@ if (punch=='be like ') {
 document.getElementById("outputtext").innerHTML = topic_ai + punch
 
 document.getElementById("memebg").src = template_b
+
+console.log('Possible Memes: '+topics_ai.length*punches.length*templates_b.length)
+console.log('- - -')
 } else {
+    document.getElementById("outputtext").innerHTML = topic_ai + punch + line_b_ai
 
+    document.getElementById("memebg").src = template_b
+    
+    console.log('Possible Memes: '+topics_ai.length*punches.length*templates_b.length*lines_b_ai.length)
+    console.log('- - -')
 }
-document.getElementById("outputtext").innerHTML = topic_ai + punch + line_b_ai
 
-document.getElementById("memebg").src = template_b
 }
 
 
