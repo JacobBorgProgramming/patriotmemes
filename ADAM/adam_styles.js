@@ -63,14 +63,14 @@ function bigger_Nanum(){
 function opensans(){
 
     document.getElementById("output").style = 'font-family: "Open Sans";'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button></p>'
+    document.getElementById("textsize").innerHTML = '<button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button>'
 }
 
 function literata(){
 
 
     document.getElementById("output").style = 'font-family: "Literata;'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_literata()">tiny</button><button onclick="smaller_literata()">small</button><button onclick="bigger_literata()">big</button></p>'
+    document.getElementById("textsize").innerHTML = '<button onclick="smallest_literata()">tiny</button><button onclick="smaller_literata()">small</button><button onclick="bigger_literata()">big</button>'
 
 }
 
@@ -78,6 +78,6 @@ function Nanum_Gothic_ExtraBold(){
 
 
     document.getElementById("output").style = 'font-family: "Nanum Gothic ExtraBold";'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_Nanum()">tiny</button><button onclick="smaller_Nanum()">small</button><button onclick="bigger_Nanum()">big</button></p>'
+    document.getElementById("textsize").innerHTML = '<button onclick="smallest_Nanum()">tiny</button><button onclick="smaller_Nanum()">small</button><button onclick="bigger_Nanum()">big</button>'
 
 }
