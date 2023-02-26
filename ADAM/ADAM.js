@@ -405,6 +405,9 @@ console.log('- - -')
         document.getElementById("outputtext").innerHTML = 'gm'
     
         document.getElementById("memebg").src = template_g
+
+        console.log('Possible Memes: '+templates_g.length)
+        console.log('- - -')
     }
 }
 
