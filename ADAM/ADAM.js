@@ -69,7 +69,7 @@ var lines_b_ai = Array('it takes control of the space laser','it irradicates hum
 
 var subjects = Array('you ','ur mom ','chinese spy balloon ','my agent ','feds ','FEDs ','ChatGPT ');
 
-var punches = Array('when ','be like ');
+var punches = Array('when ','when ','when ','when ','be like ');
 
 var lines = Array('your BTC ','the unknown ','the secrets of the universe ');
 
