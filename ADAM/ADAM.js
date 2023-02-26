@@ -1,7 +1,7 @@
 
 function versionm(){
 
-    versionnum = 'a1.2.0'
+    versionnum = 'a1.2.1'
 
     document.getElementById("version").innerHTML = versionnum
     document.getElementById("version2").innerHTML = versionnum
@@ -52,7 +52,7 @@ var topics_b_weak = Array('their wifi goes down ','they have to get a real job '
 //btc
 var topics_btc = Array('crypto bros ', 'crypto frens ','crypto scammers ');
 var lines_g_btc = Array('BTC goes up ','ordinals go viral ','a NFT sells ','they only lose 50% on their crypto ');
-var lines_b_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto exchange collapses ','the markts tank ');
+var lines_b_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto exchange collapses ','the markets tank ');
 
 //AI
 var topics_ai = Array('AI ','ChatGPT ','I ','Bing Chat ', 'YouChat ','Watson ', 'Cortana ');
