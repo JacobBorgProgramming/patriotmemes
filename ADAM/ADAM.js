@@ -21,7 +21,7 @@ var templates_chad = Array('./memetemplates/patphone.png','./memetemplates/patsm
 
 function versionm(){
 
-    versionnum = 'a1.2.7'
+    versionnum = 'a1.3.0'
     libversionnum = '1.0.4'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)

@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADAM Project</title>
     <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+    <link rel="shortcut icon" href="./adamwatermark.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css.css">
 </head>
 
-<header>
+<header style="margin-bottom: 50px;">
 
-    <h1>Algorithmic Discourse And Memeing (ADAM) Project v <span id="version"></span></h1>
+
+    <h1> <img width="25px" style="margin-right: -10px; margin-bottom: -3px" src="./adamwatermark.png" alt=""> A.D.A.M.</h1>
+    <h4>Algorithmic Discourse And Memeing <span id="version"></span></h4>
 </header>
-<body  onload="versionm()">
+<body style="padding-left: 25px;"  onload="versionm()">
     <h2>Make me a meme!</h2>
     <p style="text-align: left;"> <button onclick="rd()">...Using the RD algorithm</button> <button style="margin-left: 10px" onclick="atb()" hidden>...Using the ATB algorithm</button></p>
     <p style="text-align: left;" id="textsize"><button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button></p>
-    <p style="text-align: left;"> <button  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button>  <button  style='font-family: "Open Sans";' onclick="literata()">Literata</button><button  style='font-family: "Open Sans";' onclick="Nanum_Gothic_ExtraBold()">Nanum Gothic ExtraBold</button> </p>
+    <p style="text-align: left;"> <button  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button><button  style='font-family: "Open Sans";' onclick="Roboto_Mono()">Roboto Mono</button>  <button  style='font-family: "Open Sans";' onclick="literata()">Literata</button><button  style='font-family: "Open Sans";' onclick="Nanum_Gothic_ExtraBold()">Nanum Gothic ExtraBold</button> </p>
 
+    
 
-
-    <div style="background-color: #1a1a1a; width: 40%; padding-top: 10px;">
-    <div id="output" style='font-family: "Open Sans";'><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%; color: #fff;"></p></div>
+    <div id="meme" style=" width: 40%; padding-top: 10px;">
+    <div id="output" style='font-family: "Open Sans";'><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;"></p></div>
 
     <p style="text-align: center;"> <img id="memebg" src="" width="95%" alt=""> </p>
-    <h6 style="color: #fff; padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
+    <h6 style="padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
     </div>
 
 
@@ -35,6 +39,7 @@
 
     <div style="padding: 10px; padding-top: 30px;">
         <h4>Change Log:</h4>
+        <p> <span style="font-weight: bold;">a1.3.0 | 3/1/23</span> UI Improvements</p>
         <p> <span style="font-weight: bold;">a1.2.7 | 2/26/23</span> Bug fixes | No longer including index updates in main change log (Will still show in Git change log)</p>
         <p> <span style="font-weight: bold;">a1.2.6 | 2/26/23</span> Indexed more templates | Adjusted "gm" frequency | Bug fixed the text field</p>
         <p> <span style="font-weight: bold;">a1.2.5 | 2/26/23</span> Indexed more templates | Added new template category</p>

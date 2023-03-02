@@ -57,6 +57,24 @@ function bigger_Nanum(){
     document.getElementById("output").style = 'font-size: 24pt; font-family: "Nanum Gothic ExtraBold";'
 }
 
+function smallest_mono(){
+
+
+    document.getElementById("output").style = 'font-size: 8pt; font-family: "Roboto Mono";'
+}
+
+
+function smaller_mono(){
+
+
+    document.getElementById("output").style = 'font-size: 12pt; font-family: "Roboto Mono";'
+}
+function bigger_mono(){
+
+
+    document.getElementById("output").style = 'font-size: 24pt; font-family: "Roboto Mono";'
+}
+
 
 
 
@@ -79,5 +97,13 @@ function Nanum_Gothic_ExtraBold(){
 
     document.getElementById("output").style = 'font-family: "Nanum Gothic ExtraBold";'
     document.getElementById("textsize").innerHTML = '<button onclick="smallest_Nanum()">tiny</button><button onclick="smaller_Nanum()">small</button><button onclick="bigger_Nanum()">big</button>'
+
+}
+
+function Roboto_Mono(){
+
+
+    document.getElementById("output").style = 'font-family: "Roboto Mono";'
+    document.getElementById("textsize").innerHTML = '<button onclick="smallest_mono()">tiny</button><button onclick="smaller_mono()">small</button><button onclick="bigger_mono()">big</button>'
 
 }
