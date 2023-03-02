@@ -107,3 +107,10 @@ function Roboto_Mono(){
     document.getElementById("textsize").innerHTML = '<button onclick="smallest_mono()">tiny</button><button onclick="smaller_mono()">small</button><button onclick="bigger_mono()">big</button>'
 
 }
+
+function change_size(){
+    
+    size = document.getElementById("textsizeinput").value
+    document.getElementById("output").style = 'font-size:' + size+';'
+
+}
