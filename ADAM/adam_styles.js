@@ -114,3 +114,19 @@ function change_size(){
     document.getElementById("output").style = 'font-size:' + size+';'
 
 }
+
+function light(){
+    
+
+    document.getElementById("meme").style = 'meme'
+    document.getElementById("mode").innerHTML = '<button onclick="dark()">Dark</button>'
+
+}
+
+function dark(){
+    
+    document.getElementById("meme").class = 'meme_dark'
+    document.getElementById("mode").innerHTML = '<button onclick="light()">Light</button>'
+
+
+}

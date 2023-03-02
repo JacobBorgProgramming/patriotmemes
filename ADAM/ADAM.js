@@ -121,6 +121,7 @@ function atb(){
 
 
 function rd(){
+    document.getElementById("watermark").src = './adamwatermark.png'
     var emotion = emotions[Math.floor(Math.random()*emotions.length)];
     var topic = topics[Math.floor(Math.random()*topics.length)];
 
