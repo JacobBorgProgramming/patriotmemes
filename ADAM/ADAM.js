@@ -53,7 +53,7 @@ var lines_r_mom = Array('you speak your mind ','you have an opinion ','you talk 
 var topics_feds = Array('feds ','FEDs ', 'my agent ','agents ','your agent ','ur agent ');
 var lines_g_feds = Array('they stop your typo from sending ','they stop you from breaking up over text ', 'you tell them "GM" ','they turn off your wifi so that you cant impulse buy DoorDash ');
 var lines_b_feds = Array('you forget to say "GM" ','spread conspiracy theories ', 'you conspiracy theory Twitter ','you stop reading MSM ','you buy a physical book ','you read 1984 ');
-var lines_r_feds = Array('you forget to say "GM" ','you discuss JFK ', 'you question Fauci ','you stop reading MSM ','you buy a physical book ','you go off grid ','have a tragic boat incident ');
+var lines_r_feds = Array('you forget to say "GM" ','you discuss JFK ', 'you question Fauci ','you stop reading MSM ','you buy a physical book ','you go off grid ','you have a tragic boat incident ');
 
 
 //libs
